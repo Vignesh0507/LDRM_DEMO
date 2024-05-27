@@ -1,0 +1,165 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+}
+
+.logo{
+    width: 200px;
+    height: 50px;
+}
+/* -------------header----------- */
+.container{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 1px 1px 3px 0px black, -1px -1px 3px 0px black;
+    
+}
+.navbar-links{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    .navbar-links a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+    transition: 2s;
+
+}
+.navbar-links a:hover{
+    border-bottom: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    /* transform: scale(1.5);     */
+    padding: 5px 5px;
+
+}
+.navbar-links button{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 3px 0px black;
+    border-radius: 20px;
+}
+
+
+/* ---------------HOME */
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.home img{
+    width: 500px;
+    height: 400px;
+}
+
+
+/* about________________ */
+#about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    
+}
+#about p{
+    width: 500px;
+    height: 300px;
+    font-size: 25px;
+    box-shadow: 1px 1px 5px 0px blue;
+    padding: 25px;
+}
+#about h1{
+    color: blue;
+}
+
+
+/* services------------ */
+
+#services{
+    display: flex;
+    flex-direction: column;
+height: 100vh;
+align-items: center;
+gap: 30px;
+}
+#services img{
+    width: 600px;
+    height: 500px;
+}
+.service_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.service_main p{
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* -------------------contact */
+.number,.address,.Website{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:30px;
+}
+.number p{
+    font: 60px;
+    font-weight: bolder;
+}
+
+/* ----------product */
+
+#product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    width: 100%;
+    height: 100vh;
+    transition: 3s;
+}
+#product .list{
+    
+    display: flex;
+    width: 90%;
+    gap:30px;
+    
+}
+#product .list .box{
+    width: 250px;
+    height: 150px;
+    box-shadow: 2px 2px 10px 0px rebeccapurple;
+    padding: 30px;
+}
+#product h1{
+    color: blueviolet;
+}
+#product :hover .box{
+color: white;
+background-color: blueviolet;
+}
